@@ -62,7 +62,7 @@ const registerUser = async (req, res) => {
 
 //LOGIN ROUTE
 const loginUser = async (req, res) => {
-  // console.log("login");
+
   const { email, password } = req.body;
   if (!email || !password) {
     console.log("Please provide email and password");
